@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEEEF5"
+    tools:context=".HomePage">
+
+    <Button
+        android:id="@+id/pest"
+        android:layout_width="160dp"
+        android:layout_height="85dp"
+        android:background="@drawable/border_design"
+        android:drawableTop="@drawable/ic_truck"
+        android:text="Pest Control"
+        android:textColor="#032C4D"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.532"
+        app:layout_constraintStart_toEndOf="@+id/ho"
+        app:layout_constraintTop_toBottomOf="@+id/rep"
+        app:layout_constraintVertical_bias="0.142" />
+
+    <Button
+        android:id="@+id/rep"
+        android:layout_width="160dp"
+        android:layout_height="85dp"
+        android:background="@drawable/border_design"
+        android:drawableTop="@drawable/ic_home_repair_painting_svgrepo_com"
+        android:text="Home Repair and Paintaing"
+        android:textColor="#032C4D"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.532"
+        app:layout_constraintStart_toEndOf="@+id/pl"
+        app:layout_constraintTop_toBottomOf="@+id/co"
+        app:layout_constraintVertical_bias="0.094" />
+
+    <Button
+        android:id="@+id/co"
+        android:layout_width="160dp"
+        android:layout_height="85dp"
+        android:background="@drawable/border_design"
+        android:drawableTop="@drawable/ic_pc_mechanic"
+        android:text="Computer Repair"
+        android:textColor="#032C4D"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.532"
+        app:layout_constraintStart_toEndOf="@+id/el"
+        app:layout_constraintTop_toBottomOf="@+id/pa"
+        app:layout_constraintVertical_bias="0.056" />
+
+    <Button
+        android:id="@+id/ap"
+        android:layout_width="160dp"
+        android:layout_height="85dp"
+        android:background="@drawable/border_design"
+        android:drawableTop="@drawable/ic_appliances"
+        android:text="Appliances"
+        android:textColor="#032C4D"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.115"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.212" />
+
+    <TextView
+        android:id="@+id/services"
+        android:layout_width="249dp"
+        android:layout_height="75dp"
+        android:text="Available Services"
+        android:textColor="#64137A"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.611"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.12" />
+
+    <Button
+        android:id="@+id/pa"
+        android:layout_width="160dp"
+        android:layout_height="85dp"
+        android:background="@drawable/border_design"
+        android:drawableTop="@drawable/ic_open_cardboard_box"
+        android:text="Packaging and Moving"
+        android:textColor="#032C4D"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.532"
+        app:layout_constraintStart_toEndOf="@+id/ap"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.212" />
+
+    <Button
+        android:id="@+id/el"
+        android:layout_width="160dp"
+        android:layout_height="85dp"
+        android:background="@drawable/border_design"
+        android:drawableTop="@drawable/ic_electrician_svgrepo_com"
+        android:text="Electrical"
+        android:textColor="#032C4D"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.115"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pa"
+        app:layout_constraintVertical_bias="0.056" />
+
+    <Button
+        android:id="@+id/pl"
+        android:layout_width="160dp"
+        android:layout_height="85dp"
+        android:background="@drawable/border_design"
+        android:drawableTop="@drawable/ic_plumbing_pipe_svgrepo_com"
+        android:text="Plumbing"
+        android:textColor="#032C4D"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.115"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/el"
+        app:layout_constraintVertical_bias="0.094" />
+
+    <Button
+        android:id="@+id/ho"
+        android:layout_width="160dp"
+        android:layout_height="85dp"
+        android:background="@drawable/border_design"
+        android:drawableTop="@drawable/ic_cleaning"
+        android:text="Home Cleaning"
+        android:textColor="#032C4D"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.115"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pl"
+        app:layout_constraintVertical_bias="0.142" />
+
+    <Button
+        android:id="@+id/tu"
+        android:layout_width="160dp"
+        android:layout_height="85dp"
+        android:background="@drawable/border_design"
+        android:drawableTop="@drawable/ic_f_to_a_test"
+        android:text="Tutoring"
+        android:textColor="#032C4D"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.115"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ho"
+        app:layout_constraintVertical_bias="0.319" />
+
+    <SearchView
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        app:layout_constraintBottom_toTopOf="@+id/services"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.551" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

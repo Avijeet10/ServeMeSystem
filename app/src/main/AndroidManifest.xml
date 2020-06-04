@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="SMS"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".appinfo"></activity>
+        <activity android:name=".Completed_Services" />
+        <activity android:name=".VerifyierPopup" />
+        <activity android:name=".Vendor_Service_History" />
+        <activity android:name=".User_Order_History" />
+        <activity android:name=".Price_Accept_By_Costumer" />
+        <activity android:name=".User_Accpted_by_Vendor" />
+        <activity android:name=".User_Requested_list" />
+        <activity android:name=".Vendor_Request_Accep_Decline" />
+        <activity android:name=".RequestLists" />
+        <activity android:name=".ViewVendorProfile" />
+        <activity android:name=".VendorLogin" />
+        <activity android:name=".CustomerLogin" />
+        <activity android:name=".VendorHomePage" />
+        <activity android:name=".Vendor_List" />
+        <activity android:name=".Payment_Activity" />
+        <activity android:name=".No_vendors_Available" />
+        <activity android:name=".Display_Tutoring" />
+        <activity android:name=".Display_Plumbing" />
+        <activity android:name=".Display_PestControl" />
+        <activity android:name=".Display_Packaging" />
+        <activity android:name=".Display_HomeRepair" />
+        <activity android:name=".Display_HomeCleaning" />
+        <activity android:name=".Display_Electrical" />
+        <activity android:name=".Display_CompRepair" />
+        <activity android:name=".Display_Appliances" />
+        <activity android:name=".ServiceRequestForm" />
+        <activity android:name=".ServiceRequestForm_Packaging" />
+        <activity android:name=".ServiceRequestForm_Electrical" />
+        <activity android:name=".ServiceRequestForm_Plumbing" />
+        <activity android:name=".ServiceRequestForm_CompRepair" />
+        <activity android:name=".ServiceRequestForm_HomeRepair" />
+        <activity android:name=".ServiceRequestForm_PestControl" />
+        <activity android:name=".ServiceRequestForm_Tutoring" />
+        <activity android:name=".ServiceRuestForm_Homecleaning" />
+        <activity android:name=".VIewUserProfile" />
+        <activity android:name=".RateVendorServices" />
+        <activity android:name=".ReviewAndRating" />
+        <activity android:name=".SetupSoundNotify" />
+        <activity android:name=".UserAppointmentChangeModify" />
+        <activity android:name=".GuestLogin" />
+        <activity android:name=".VendorServiceSelect" />
+        <activity android:name=".PWReset" />
+        <activity android:name=".VendorRegistration" />
+        <activity android:name=".CustomerRegistration" />
+        <activity android:name=".RegistrationSelection" />
+        <activity android:name=".HomePage" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

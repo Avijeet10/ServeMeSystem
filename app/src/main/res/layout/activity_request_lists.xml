@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout6"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEEEF5"
+    android:weightSum="100">
+
+
+    <LinearLayout
+        android:layout_width="367dp"
+        android:layout_height="208dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="14dp"
+        android:background="@drawable/border_design"
+        android:focusable="false"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.082">
+
+        <LinearLayout
+            android:layout_width="173dp"
+            android:layout_height="199dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/vendorinfo5"
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:focusable="false"
+                android:gravity="center"
+                android:text="TextView3" />
+
+            <TextView
+                android:id="@+id/Vendorinfo1"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:focusable="false"
+                android:gravity="center"
+                android:text="TextView2" />
+
+            <TextView
+                android:id="@+id/Vendorinfo3"
+                android:layout_width="match_parent"
+                android:layout_height="53dp"
+                android:focusable="false"
+                android:gravity="center"
+                android:text="TextView3" />
+
+            <TextView
+                android:id="@+id/Vendorinfo2"
+                android:layout_width="match_parent"
+                android:layout_height="49dp"
+                android:focusable="false"
+                android:gravity="center"
+                android:text="TextView3" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="202dp"
+            android:layout_height="201dp"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:id="@+id/Vendorinfo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:focusable="false"
+                android:gravity="center"
+                android:inputType="textMultiLine"
+                android:shadowColor="#00F1D8D8"
+                android:text="TextView1"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="196dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

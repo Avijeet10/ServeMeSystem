@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrationSelection">
+
+    <LinearLayout
+        android:layout_width="366dp"
+        android:layout_height="330dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/CustomerReg"
+            android:layout_width="match_parent"
+            android:layout_height="168dp"
+            android:backgroundTint="#F1D38B"
+            android:fontFamily="serif"
+            android:hapticFeedbackEnabled="true"
+            android:selectAllOnFocus="true"
+            android:shadowColor="#F1E19B"
+            android:elevation="@android:dimen/app_icon_size"
+            android:text="To Register as a New CUSTOMER"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/VendorReg"
+            android:layout_width="match_parent"
+            android:layout_height="168dp"
+            android:layout_marginBottom="340dp"
+            android:backgroundTint="#71C1E9"
+            android:fontFamily="serif"
+            android:elevation="@android:dimen/app_icon_size"
+            android:text="To Register as a New VENDOR"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

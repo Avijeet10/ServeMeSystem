@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEEEF5"
+    tools:context=".VIewUserProfile">
+
+    <LinearLayout
+        android:id="@+id/linearLayout11"
+        android:layout_width="358dp"
+        android:layout_height="390dp"
+        android:background="#EEEEF5"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.763">
+
+        <TextView
+            android:id="@+id/V_Companyname"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:accessibilityLiveRegion="assertive"
+            android:background="#EEEEF5"
+            android:cursorVisible="false"
+            android:text="FirstName"
+            android:textColor="#0525EE"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <TextView
+            android:id="@+id/P_lastname"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:accessibilityLiveRegion="assertive"
+            android:background="#EEEEF5"
+            android:text="LastName"
+            android:textColor="#0525EE"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <TextView
+            android:id="@+id/V_email"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:accessibilityLiveRegion="assertive"
+            android:background="#EEEEF5"
+            android:text="Email"
+            android:textColor="#0525EE"
+            android:textSize="20sp"
+            android:typeface="serif" />
+
+        <TextView
+            android:id="@+id/V_phnum"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:accessibilityLiveRegion="assertive"
+            android:background="#EEEEF5"
+            android:text="Phone Number"
+            android:textColor="#0525EE"
+            android:textSize="20sp"
+            android:typeface="serif" />
+
+        <TextView
+            android:id="@+id/V_address"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:accessibilityLiveRegion="assertive"
+            android:background="#EEEEF5"
+            android:text="Address"
+            android:textColor="#0525EE"
+            android:textSize="20sp"
+            android:typeface="serif" />
+
+        <TextView
+            android:id="@+id/V_zip"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:accessibilityLiveRegion="assertive"
+            android:background="#EEEEF5"
+            android:text="ZipCode"
+            android:textColor="#0525EE"
+            android:textSize="20sp"
+            android:typeface="serif" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="136dp"
+        android:layout_height="160dp"
+        android:layout_marginBottom="44dp"
+        android:baseline="@android:dimen/app_icon_size"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout11"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.789"
+        app:srcCompat="@drawable/user" />
+</androidx.constraintlayout.widget.ConstraintLayout>

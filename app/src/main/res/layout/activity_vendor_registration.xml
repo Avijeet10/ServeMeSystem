@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEEEF5"
+    tools:context=".VendorRegistration">
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vendor Sign Up Form"
+        android:textColor="@color/colorAccent"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
+    <LinearLayout
+        android:layout_width="356dp"
+        android:layout_height="598dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/info"
+        app:layout_constraintVertical_bias="0.3">
+
+        <EditText
+            android:id="@+id/comp_name"
+            android:layout_width="365dp"
+            android:layout_height="45dp"
+            android:ems="10"
+            android:hint="Company Name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/comp_address"
+            android:layout_width="365dp"
+            android:layout_height="45dp"
+            android:ems="10"
+            android:hint="Street Address"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/comp_zipcode"
+            android:layout_width="365dp"
+            android:layout_height="45dp"
+            android:ems="10"
+            android:hint="Zip Code"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/comp_phnum"
+            android:layout_width="365dp"
+            android:layout_height="45dp"
+            android:ems="10"
+            android:hint="Phone Number"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/retailerid"
+            android:layout_width="365dp"
+            android:layout_height="45dp"
+            android:ems="10"
+            android:hint="Retailer ID"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/comp_email"
+            android:layout_width="365dp"
+            android:layout_height="45dp"
+            android:ems="10"
+            android:hint="E-mail"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/comp_username"
+            android:layout_width="365dp"
+            android:layout_height="45dp"
+            android:ems="10"
+            android:hint="Confirm Email"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/comp_pass"
+            android:layout_width="365dp"
+            android:layout_height="45dp"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword" />
+
+        <TextView
+            android:id="@+id/servicetype"
+            android:layout_width="365dp"
+            android:layout_height="41dp"
+            android:text="Selected Service Type"
+            android:textAlignment="center"
+
+            android:textColor="#F44336"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:text="Selected Service Type" />
+
+        <TextView
+            android:id="@+id/servicetype1"
+            android:layout_width="365dp"
+            android:layout_height="43dp"
+            android:textAlignment="center"
+            android:textColor="#673AB7"
+            android:textSize="18sp" />
+
+        <ProgressBar
+            android:id="@+id/progressBar2"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="365dp"
+            android:layout_height="39dp"
+            android:progress="@android:integer/config_shortAnimTime"
+            android:progressTint="#1CEE25"
+            tools:visibility="visible" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="334dp"
+            android:layout_height="67dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="#F79923"
+            android:elevation="?attr/actionBarSize"
+            android:text="SUBMIT" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
